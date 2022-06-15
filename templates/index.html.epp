@@ -1,0 +1,11 @@
+<%- | $server_name,
+| -%>
+<!doctype html>
+<html>
+  <head>
+    <title>Welcome to <%= $server_name %></title>
+  </head>
+  <body>
+    <p>This is <strong><%= $server_name %></strong></p>
+  </body>
+</html>

@@ -1,2 +1,6 @@
 ---
 apache::install_name: 'httpd'
+apache::service_name: 'httpd'
+apache::config_paths: 
+- '/etc/httpd/conf.d'
+apache::vhost_dir: 'etc/httpd/conf.d'
